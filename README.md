@@ -1,11 +1,11 @@
 # 🛠️ Claude Code Skills 中文精选集
 
-> 🚀 最实用的 Claude Code Skills / Agents / Plugins 合集 | 精选 442+ | 按场景分类 | 复制即装 | 持续更新
+> 🚀 最实用的 Claude Code Skills / Agents / Plugins 合集 | 精选 443+ | 按场景分类 | 复制即装 | 持续更新
 
 [![Stars](https://img.shields.io/github/stars/laolaoshiren/claude-code-skills-zh?style=social)](https://github.com/laolaoshiren/claude-code-skills-zh)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-442%2B-green.svg)](#original-skills)
-[![Updated](https://img.shields.io/badge/updated-2026--10--12-brightgreen.svg)](https://github.com/laolaoshiren/claude-code-skills-zh/commits/main)
+[![Skills](https://img.shields.io/badge/skills-443%2B-green.svg)](#original-skills)
+[![Updated](https://img.shields.io/badge/updated-2026--10--14-brightgreen.svg)](https://github.com/laolaoshiren/claude-code-skills-zh/commits/main)
 [![Website](https://img.shields.io/badge/website-claude--skills.bt199.com-6c5ce7.svg)](https://claude-skills.bt199.com)
 
 **中文开发者最好的 Claude Code Skills 资源站。** 不只是列表，更包含可直接安装的原创技能包。
@@ -470,6 +470,7 @@ cp -r claude-code-skills-zh/skills/* ~/.claude/skills/
 
 | 技能 | 说明 |
 |------|------|
+| [百智云 Agent Toolkit 社区插件](https://github.com/ct-jaryn/baizhi-claude-code-plugin) | Claude Code 原生插件：提供百智云 HTTP MCP 连接和显式调用的公开资料研究 Skill；MIT 仅覆盖插件配置与文档；须完整安装插件、按插件 README 配置自有账号 Key，托管调用可能计费，不能仅复制 SKILL.md 代替安装；当前 Claude Code 宿主及真实服务未在本轮验证（0⭐）|
 | [codex-model-routing-team](https://github.com/zjp1997720/codex-model-routing-team) | Codex 复杂任务路由 Skill：把任务分配给不同模型的后台 worker，限制并发并由 lead agent 汇总验证；需要 Codex 多 Agent / 后台任务权限，适合研究、评审和大型改动，执行前确认成本与任务边界（158⭐）|
 | [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) | Qwen 官方多模态 Skills / MCP 插件集：按需提供图像、视频、文档、OCR、长视频记忆、生成、Blender / FreeCAD 和中文教学视频能力，支持 Claude Code / Codex 等工具；需 `uv`，视频或音频处理需 `ffmpeg`，部分 API 功能需 DashScope / Serper Key，调用 API 功能时媒体或查询会发送到对应服务（3.1K⭐）|
 | [longgraph](https://github.com/levi-qiao/longgraph-skill) | 面向 Claude Code / Codex / Cursor / Grok Build 的长周期任务 Skill：用 `.longgraph/` 账本、executor / supervisor 和验证门控制多轮任务并支持跨宿主续跑；仅适合真正需要持久图结构的工作，启动前应确认任务范围、运行成本和工作区中的持久状态（78⭐）|

@@ -4,19 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Claude Code Skills 中文精选集 | 中文开发者最好的技能资源站</title>
-<meta name="description" content="最实用的 Claude Code Skills / Agents / Plugins 中文精选集，收录 442+ 高质量技能、Agent 和插件，20 个原创技能，适合 Claude Code、Codex、Gemini CLI、Cursor 用户复制即装。">
+<meta name="description" content="最实用的 Claude Code Skills / Agents / Plugins 中文精选集，收录 443+ 高质量技能、Agent 和插件，20 个原创技能，适合 Claude Code、Codex、Gemini CLI、Cursor 用户复制即装。">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://claude-skills.bt199.com/">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Claude Code Skills 中文精选集">
 <meta property="og:title" content="Claude Code Skills 中文精选集 | 中文开发者最好的技能资源站">
-<meta property="og:description" content="收录 442+ Claude Code Skills / Agents / Plugins，按场景分类，中文说明，复制即装，持续更新。">
+<meta property="og:description" content="收录 443+ Claude Code Skills / Agents / Plugins，按场景分类，中文说明，复制即装，持续更新。">
 <meta property="og:url" content="https://claude-skills.bt199.com/">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Claude Code Skills 中文精选集">
-<meta name="twitter:description" content="442+ 高质量 Claude Code 技能、Agent、插件中文精选，复制即装。">
+<meta name="twitter:description" content="443+ 高质量 Claude Code 技能、Agent、插件中文精选，复制即装。">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -201,10 +201,10 @@ footer .footer-links a{color:var(--text2);font-size:.9rem}
     <h1>Claude Code Skills<br><span class="gradient">中文精选集</span></h1>
     <p class="hero-sub">最实用的 Claude Code Skills / Agents / Plugins 合集。不只是列表，更包含可直接安装的原创技能包。适合想快速补齐代码审查、README、API 测试、重构和性能分析能力的中文开发者。</p>
     <div class="hero-badges">
-      <span class="badge green">✅ 442+ 精选技能</span>
+      <span class="badge green">✅ 443+ 精选技能</span>
       <span class="badge purple">🎁 20 个原创技能</span>
       <span class="badge orange">⭐ 880 Stars</span>
-      <span class="badge orange">🔄 更新于 2026-10-12</span>
+      <span class="badge orange">🔄 更新于 2026-10-14</span>
     </div>
     <div class="hero-actions">
       <a href="#install" class="btn btn-primary">🚀 先安装再说</a>
@@ -438,7 +438,7 @@ cp -r claude-code-skills-zh/skills/* ~/.claude/skills/</pre>
   <div class="container">
     <div class="stats-bar fade-in">
       <div class="stat-item">
-        <h3>442+</h3>
+        <h3>443+</h3>
         <p>精选技能</p>
       </div>
       <div class="stat-item">
@@ -450,7 +450,7 @@ cp -r claude-code-skills-zh/skills/* ~/.claude/skills/</pre>
         <p>GitHub Stars</p>
       </div>
       <div class="stat-item">
-        <h3>2026-10-12</h3>
+        <h3>2026-10-14</h3>
         <p>最近更新</p>
       </div>
     </div>
@@ -854,6 +854,7 @@ const skillsData = {
     {name:'listening-script-kit',stars:'0',desc:'长文听稿 Skill：把研究报告、学习长文和读书笔记改写成离开屏幕也能听懂的稿件，保留数字、来源归属、限定语和不确定性，输出纯文字、不合成音频；把 `skills/listening-script/` 复制到 `~/.claude/skills/` 即可用，MIT 许可，技能包不含脚本、不访问账号、无需 API Key，AI 输出仍需对照原文核查',url:'https://github.com/GODGOD126/listening-script-kit'},
   ],
   agent: [
+    {name:'百智云 Agent Toolkit 社区插件',stars:'0',desc:'Claude Code 原生插件：提供百智云 HTTP MCP 连接和显式调用的公开资料研究 Skill；MIT 仅覆盖插件配置与文档；须完整安装插件、按插件 README 配置自有账号 Key，托管调用可能计费，不能仅复制 SKILL.md 代替安装；当前 Claude Code 宿主及真实服务未在本轮验证',url:'https://github.com/ct-jaryn/baizhi-claude-code-plugin'},
     {name:'codex-model-routing-team',stars:'158',desc:'Codex 复杂任务路由 Skill：把任务分配给不同模型的后台 worker，限制并发并由 lead agent 汇总验证；需要 Codex 多 Agent / 后台任务权限，适合研究、评审和大型改动，执行前确认成本与任务边界',url:'https://github.com/zjp1997720/codex-model-routing-team'},
     {name:'Qwen-MM-Plugins',stars:'3.1K+',desc:'Qwen 官方多模态 Skills / MCP 插件集：按需提供图像、视频、文档、OCR、长视频记忆、生成、Blender / FreeCAD 和中文教学视频能力，支持 Claude Code / Codex 等工具；需 `uv`，视频或音频处理需 `ffmpeg`，部分 API 功能需 DashScope / Serper Key，调用 API 功能时媒体或查询会发送到对应服务',url:'https://github.com/QwenLM/Qwen-MM-Plugins'},
     {name:'longgraph',stars:'78',desc:'面向 Claude Code / Codex / Cursor / Grok Build 的长周期任务 Skill：用 `.longgraph/` 账本、executor / supervisor 和验证门控制多轮任务并支持跨宿主续跑；仅适合真正需要持久图结构的工作，启动前应确认任务范围、运行成本和工作区中的持久状态',url:'https://github.com/levi-qiao/longgraph-skill'},
